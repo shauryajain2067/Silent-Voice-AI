@@ -61,17 +61,21 @@
         <div id="emergency-contacts">
           <input type="text" class="phoneInput" placeholder="Enter emergency contact">
         </div>
+        <br><br>
         <button type="button" id="add-contact-btn">+ Add Contact</button>
       </div>
+    <br>
+    <p>Already have an account? <a href="login.html">Log in here</a>.</p>
+      <br>
+      <button type="submit" onclick="signup(event)">Sign Up</button>
       <br>
       <br>
-      <button type="submit" onclick="signup(event)">Sign Up with Email</button>
+      <button type="button" onclick="googleLogin(event)" class="google_btn">Sign Up with Google
+        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" style="height:20px; vertical-align:middle; margin-right:8px;">
+      </button>
       <br>
       <br>
-      <button type="button" onclick="googleLogin(event)">Sign Up with Google</button>
-      <br>
-      <br>
-      <button type="button" onclick="updateProfile(event)">Update Profile</button>
+  
       <br>
     </form>
   </div>

@@ -60,6 +60,7 @@ function signup(event) {
     .catch(error => {
       alert("❌ Signup error: " + error.message);
     });
+    window.location.href = "comms.html";
 }
 
 // Email Login
@@ -74,6 +75,7 @@ function login() {
     .catch(error => {
       alert("❌ Login error: " + error.message);
     });
+    window.location.href = "comms.html";
 }
 
 // Google Login (Sign Up or Sign In with questions)
