@@ -1,0 +1,195 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f3dada;
+    padding: 0;
+    margin: 0;
+}
+/* Google Fonts */
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    color:black
+  }
+  .noto-sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+  }
+/*<--------End------->*/
+/* Header Styling */
+header {
+    background: linear-gradient(145deg, #D3D3D3, #ffffff);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+    color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out infinite alternate;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #0078d7;
+}
+.anchorship{
+    display:inline-flex;
+    height: 100%;
+    width:600px;
+}
+.anchoring{
+    margin-right:45px;
+    color: black;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size:20px;
+}
+a{
+    &:hover {
+        color: #0078d7;
+    }
+}
+.visual_crazy{
+    height:700px;
+    width:100%;
+    display:inline-block;
+}
+.greenie{
+    background-color:#F5EBDC;
+    float:left;
+    width:50%;
+    height:100%;
+}
+.bluenie{
+    background-color:#2C3E50;
+    float:right;
+    width:50%;
+    height:100%;
+}
+.quota{
+    margin-left:50px;
+    margin-top:30px;
+    width:75%;
+    border:2px,solid,white;
+    height:80%;
+    padding:20px;
+    font-size:70px;
+    font-family:Montserrat;
+    font-weight:900 ;
+    color:white;
+}
+#logos{
+    height:200px;
+    width:200px;
+    margin-top:50px;
+    margin-right:50px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+}
+.image_ka_baap{
+    height:95%;
+    width:100%;
+    top:0;
+}
+.logo{
+    height:100%;
+    width:50%;
+    float:left;
+    margin-left:0px;
+}
+.mages{
+    height:500px;
+    width:350px;
+    margin-left:200px;
+    border-radius: 15px;
+    margin-top:40px;
+}
+
+.headings{
+    text-align: center;
+    color:black;
+    font-size:50px;
+    font-family:Protest Guerrilla;
+    background-color:#a7e6b8;
+    width:50%;
+    border-radius:15px;
+    margin-left:400px;
+}
+
+.misss{
+    width:60%;
+    height:70%;
+    font-size:20px;
+    font-style:unset;
+    font-family:Montserrat;
+    margin-left:400px;
+}
+
+#Our_Mission {
+    height:fit-content;
+}
+
+.one_l{
+    display:inline-flex;
+}
+
+.team{
+    width:400px;
+    height:500px;
+    border:2px solid black;
+    box-shadow: 2px 2px 2px black;
+    border-radius:15px;
+    margin-left:200px;
+    background-color:white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size:18px;
+        margin-bottom:50px;
+        padding: 20px;
+}
+#about_us{
+    background-color:#f9f8ea;
+}
+.iconic{
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    border-radius:35px;
+
+}

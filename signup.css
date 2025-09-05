@@ -1,0 +1,89 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f4f4f4;
+        }
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 18px;
+        }
+        .question {
+            margin-bottom: 16px;
+        }
+        .radio-group {
+            margin-left: 20px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #0078d7;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #005fa3;
+        }
+
+        /* Gradient background for body */
+        body {
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+        }
+
+        /* Style input fields */
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #b0c4de;
+            border-radius: 4px;
+            font-size: 15px;
+            background: #f8fbff;
+            box-sizing: border-box;
+            margin-top: 6px;
+        }
+
+        /* Style labels */
+        label {
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        /* Style radio buttons */
+        .radio-group input[type="radio"] {
+            accent-color: #0078d7;
+            margin-right: 6px;
+        }
+
+        .radio-group label {
+            margin-right: 18px;
+            font-size: 15px;
+        }
+
+        /* Container shadow and border */
+        .container {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+            border: 1px solid #e3eafc;
+        }
+
+        /* Button shadow */
+        button {
+            box-shadow: 0 2px 6px rgba(0,120,215,0.08);
+            transition: background 0.2s;
+        }
+        #add-contact-btn{
+            width:fit-content;
+            float:right;
+        }
